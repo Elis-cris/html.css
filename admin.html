@@ -23,7 +23,7 @@
   </head>
   <body>
     <header
-      class="bg-light d-flex justify-content-between align-items-center px-5 py-2"
+      class="bg-light d-flex justify-content-between align-items-center px-4 py-3"
     >
       <h1>
         <img
@@ -33,42 +33,93 @@
         />
       </h1>
       <div>
-        <span>Elis Andrade</span>
-        <span>
-          <button
-            class="btn btn-link dropdown-toggle"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          ></button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Sair</a></li>
-          </ul>
-        </span>
+        <div class="d-none d-md-block">
+          <span>Elis Andrade</span>
+
+          <span>
+            <button
+              class="btn btn-link dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            ></button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sair</a></li>
+            </ul>
+          </span>
+        </div>
+        <button
+          class="btn btn-outline-primary d-md-none"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#main-menu"
+        >
+          <i class="bi bi-list"></i>
+        </button>
       </div>
     </header>
+
     <div class="d-flex">
-      <nav id="main-nav" class="bg-dark vh-100 px-3 py-2">
-        <ul class="nav nav-pills flex-column">
-          <li class="nave-item">
-            <a href="#" class="nav-link active d-block">
-              <i class="bi bi-house-door"></i>
-              <span>Pagina Inicial</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link d-block">
-              <i class="bi bi-people"></i>
-              Lista de Usuários
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="offcanvas-md" id="main-menu">
+        <div class="offcanvas-header">
+          <div class="offcanvas-body">
+            <nav id="main-nav" class="bg-dark vh-100 px-3 py-2">
+              <ul class="nav nav-pills flex-column">
+                <li class="nave-item">
+                  <a href="#" class="nav-link active d-block">
+                    <i class="bi bi-house-door"></i>
+                    <span>Pagina Inicial</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link d-block">
+                    <i class="bi bi-people"></i>
+                    Lista de Usuários
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
       <main class="p-3 vh-100 w-100">
         <h2 class="border-bottom displey-10 pb-2 fw-medium mb-1">
           Pàgina Incial do sitema
         </h2>
-        <span>Seja bem-Vindo</span>
+        <p>Seja bem-Vindo</p>
+        <div class="row">
+          <div class="col-6">
+            <a href="#" class="btn btn-outline-primary d-block py-3">
+              <i class="bi bi-house-door-fill display-5"></i>
+              <div>Pagina Incial</div>
+            </a>
+            <div class="col-6">
+            <a href="#" class="btn btn-outline-primary d-block py-3">
+              <i class="bi bi-house-door-fill display-5"></i>
+              <div>Pagina Incial</div>
+            </a>
+            <div class="col-6">
+            <a href="#" class="btn btn-outline-primary d-block py-3">
+              <i class="bi bi-house-door-fill display-5"></i>
+              <div>Pagina Incial</div>
+            </a>
+            <div class="col-6">
+            <a href="#" class="btn btn-outline-primary d-block py-3">
+              <i class="bi bi-house-door-fill display-5"></i>
+              <div>Pagina Incial</div>
+            </a>
+            <div class="col-6">
+            <a href="#" class="btn btn-outline-primary d-block py-3">
+              <i class="bi bi-house-door-fill display-5"></i>
+              <div>Pagina Incial</div>
+            </a>
+            <div class="col-6">
+            <a href="#" class="btn btn-outline-primary d-block py-3">
+              <i class="bi bi-house-door-fill display-5"></i>
+              <div>Pagina Incial</div>
+            </a>
+          </div>
+        </div>
       </main>
     </div>
     <script

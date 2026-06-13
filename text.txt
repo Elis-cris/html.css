@@ -1,0 +1,25 @@
+bootstrap  
+primary 
+se condery 
+ danger 
+ success
+
+
+ info 
+
+ breakpont para dizer  o tamnho da tela  
+
+ d-flex
+ justify-content-bertwer
+ nav pills 
+
+
+ colunas  tem que ter um total procial a 12 com somatoria = a 12,colunas  a 13 ele cai 
+
+ 1/12  vai ter 12 colunas  = cd1
+ 1/4 vai ter 4 colunas = cd3
+
+
+d-nome = ocutar 
+d- blocl =  exibir 
+
